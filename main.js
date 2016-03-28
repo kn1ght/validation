@@ -1,5 +1,3 @@
-$('input[name="phone"]').inputmask('+7 (999) 999 99 99');
-
 $('.formSubmit').on('submit', function(e) {
 	e.preventDefault();
 	var self = $(this);
