@@ -2,7 +2,7 @@ $('.formSubmit').on('submit', function(e) {
 	e.preventDefault();
 	var self = $(this);
 	if ( validation(self) == 0 ) {
-		console.log("form sended"); //заглушка, т.к. бэка нет
+		console.log("form sended"); // заглушка, т.к. бэка нет
 	}
 	else {
 		console.log("error"); //заглушка, т.к. бэка нет
